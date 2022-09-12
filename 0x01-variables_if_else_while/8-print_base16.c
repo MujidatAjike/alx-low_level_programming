@@ -6,19 +6,15 @@
  */
 int main(void)
 {
-	unsigned char ch = '0';
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-	putchar(ch);
-	ch++;
+	putchar(i + '0');
 	}
-	i = '1';
-	for (i = 0; i < 6; i++)
+	for (i = 'a'; i <= 'f'; i++)
 	{
-	putchar('0' + ch);
-	ch++;
+	putchar(i);
 	}
 	putchar('\n');
 	return (0);
