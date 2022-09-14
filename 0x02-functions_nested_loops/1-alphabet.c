@@ -1,15 +1,18 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - Check description
+ *
+ * description: print alphabetvin lower case
  *
  * Return: always return zero
  */
-void print_alphabet(void)
+vioid print_alphabet(void)
 {
 	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		_putchar(ch);
 	}
-	_putchar('\n');;
+	_putchar('\n');
 }
