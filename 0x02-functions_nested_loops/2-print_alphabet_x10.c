@@ -5,7 +5,7 @@
  * description: print lower case alphabetg 10 times
  * Return: always return zero
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int q;
 	int s;
