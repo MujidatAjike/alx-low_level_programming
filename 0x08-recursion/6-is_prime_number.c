@@ -17,7 +17,7 @@ int helper(int i, int n)
  * is_prime_number - is prime or not
  * @n: integer to compare
  * Return: boolean
- * */
+ */
 int is_prime_number(int n)
 {
 	int i = 2;
